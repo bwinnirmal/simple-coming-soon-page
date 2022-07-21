@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Coming Soon.</title>
+    <!-- bootstrap css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <!-- bootstrap icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <!-- custom css  -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+  </head>
+  <body>
+    <!-- main container -->
+    <div class="container-fluid d-flex justify-content-center">
+        <div class="main">
+            <h1 class="fw-bolder ">Coming Soon!</h1>
+            <p class="text-center">Stay Tunned.</p>
+        </div>
+    </div>
+    <div class="container">
+        <div class="countDown mt-5 bg-light p-5 text-dark fw-bolder rounded-4 shadow">
+            <div>
+                <h1 class="days">00</h1>
+                <p>Days</p>
+            </div>
+            <div>
+                <h1 class="hours">00</h1>
+                <p>Hours</p>
+            </div>
+            <div>
+                <h1 class="mins">00</h1>
+                <p>Mins</p>
+            </div>
+            <div>
+                <h1 class="seconds">00</h1>
+                <p>Secs</p>
+            </div>
+        </div>
+    </div>
+    <div class="container d-flex justify-content-center">
+        <div class="newsLetter mt-4 ps-lg-5 pe-lg-5 ps-2 pe-2 shadow">
+            <h3 class="subscribe" data-bs-toggle="modal" data-bs-target="#newsLetterModal">
+                <i class="bi bi-envelope"></i>
+                Subscribe Now
+            </h3> 
+        </div>
+    </div>
+    <!-- main container end -->
+
+    <!-- modal newslatter -->
+    <!-- Modal -->
+<div class="modal fade" id="newsLetterModal" tabindex="-1" aria-labelledby="newsLetterModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title text-dark" id="newsLetterModalLabel">Subscribe To Our Newsletter</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body p-3">
+          <form action="#">
+            <label for="name" class="form-label text-dark">Full Name:</label>
+            <input type="text" name="name" id="name" class="form-control mb-3" placeholder="Enter Your Name" required>
+            <label for="email" class="form-label text-dark">Your Email:</label>
+            <input type="email" name="email" id="email" class="form-control mb-3" placeholder="Enter Your Email" required>
+            <button type="submit" class="btn btn-primary mb-3">Subscribe</button>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+    <!-- modal newslatter -->
+
+    <!-- bootstrap js  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    <!-- custom js  -->
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>

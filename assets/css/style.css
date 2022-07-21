@@ -1,0 +1,17 @@
+body{
+    background: linear-gradient(90deg, hsla(197, 100%, 63%, 1) 0%, hsla(294, 100%, 55%, 1) 100%);
+    margin: 10% auto;
+    color: #fff;
+}
+
+.countDown{
+    display: flex;
+    justify-content: space-around;
+}
+.newsLetter{
+    border: 2px solid #fff;
+    width: fit-content;
+    border-radius: 50px;
+    opacity: 0.9;
+    cursor: pointer;
+}
