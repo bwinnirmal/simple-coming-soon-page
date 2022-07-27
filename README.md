@@ -2,4 +2,4 @@
 A Simple Coming Soon Page Made With Bootstrap 5.2 And Javascript.
 
 # Demo
-Check Out The Live Demo At: https://toolsbro.in/coming-soon/
+Check Out The Live Demo At: https://bwinnirmal.in/projects/coming-soon/
